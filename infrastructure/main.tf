@@ -18,3 +18,4 @@ resource "azurerm_storage_account" "shiva" {
   account_replication_type = "LRS"
 }resource "azurerm_resource_group" "another" {name="test"location="West US"}
 resource "azurerm_resource_group" "another" {name="test"location="West US"}
+resource "azurerm_resource_group" "test" {name="test"location="Canada Central"}
